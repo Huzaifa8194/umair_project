@@ -14,7 +14,7 @@ export default function AddBook() {
     <div className='container'>
       <form onSubmit={handleSubmit(savedata)} className='jumbotron mt-4'>
         <label htmlFor='nm'><b>Book Name: </b></label>
-        <input id='nm' type='text' className='form-control' placeholder='eg. Authomic Habits' {...register('name')}/><br/>
+        <input id='nm' type='text' className='form-control' placeholder='eg. Atomic Habits' {...register('name')}/><br/>
         <label htmlFor='anm'><b>Author Name: </b></label>
         <input id='anm' type='text' className='form-control' placeholder='eg. James Clear' {...register('a_name')}/><br/>
         <label htmlFor='avb'><b>Avaibility: </b></label>
